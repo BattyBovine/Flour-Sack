@@ -1,0 +1,17 @@
+<macromedia-extension name="Flour Sack" version="1.0" type="flashpanel" requires-restart="false">
+<description><![CDATA[Scales an object while maintaining total volume, resulting in natural looking squash & stretch.]]></description>
+<ui-access><![CDATA[This tool is accessed from Windows > Other Panels]]></ui-access>
+<products>
+	<product name="Flash" version="7" primary="true" />
+</products>
+<author name="Batty Bovine" />
+
+<license-agreement>
+	<![CDATA[- - -]]>
+</license-agreement>
+
+<files>
+	<file source="Flour Sack MX 2004.swf" destination="$Flash\WindowSWF" />
+	<file source="Flour Sack.jsfl" destination="$Flash\WindowSWF\Flour Sack" />
+</files>
+</macromedia-extension>
