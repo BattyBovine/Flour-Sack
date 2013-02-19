@@ -31,9 +31,6 @@ function setScale(w,h) {
 	// Set the new matrix
 	selecteditem.matrix = m;
 	
-	// Force marking the document as unsaved
-	fl.getDocumentDOM().moveSelectionBy({x:0,y:0});
-	
 	// fl.trace('Persistent Data: { objScaleX:'+selecteditem.getPersistentData("objScaleX")+' objScaleY:'+selecteditem.getPersistentData("objScaleY")+' ssScaleX:'+selecteditem.getPersistentData("ssScaleX")+' ssScaleY:'+selecteditem.getPersistentData("ssScaleY")+' }');
 	
 	return selecteditem;
@@ -60,4 +57,9 @@ function resetScale() {
 		 // !selecteditem.getPersistentData("objScaleY")) {
 		// fl.trace('Persistent data cleared');
 	// }
+}
+
+function markUnsaved() {
+	// Force marking the document as unsaved
+	//fl.getDocumentDOM().moveSelectionBy({x:0,y:0});
 }
