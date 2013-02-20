@@ -2,9 +2,9 @@
 <description><![CDATA[Scales an object while maintaining total volume, resulting in natural looking squash & stretch.]]></description>
 <ui-access><![CDATA[This tool is accessed from Windows > Other Panels]]></ui-access>
 <products>
-	<product name="Flash" version="8" primary="true" />
+	<product name="Flash" version="7" primary="true" />
 </products>
-<author name="Batty Bovine" />
+<author name="BattyBovine" />
 
 <license-agreement>
 	<![CDATA[- - -]]>
