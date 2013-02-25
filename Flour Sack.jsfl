@@ -48,7 +48,7 @@ function setScale(w,h) {
 		var fla = fl.getDocumentDOM();
 		if(fla.allItemsScaleX==null ||
 		   fla.allItemsScaleY==null) {
-			fla.scaleSelection(w/100,h/100);
+			fla.scaleSelection(w/100,h/100,"bottom center");
 		} else {
 			fla.scaleSelection(w/fla.allItemsScaleX,h/fla.allItemsScaleY,"bottom center");
 		}
